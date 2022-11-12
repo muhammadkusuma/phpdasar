@@ -22,37 +22,45 @@ var_dump ("Wira");
 
 // variable dan tipe data
 // variable
+echo "variable dan tipe data".PHP_EOL;
 $nama="Wira";
 
 // operator
 // aritmatika
 // + - * / %
+echo "operator aritmatika".PHP_EOL;
 $x=10;
 $y=20;
 echo $x+$y;
 
 // penggabung string/concat
 // .
+echo "penggabungan string".PHP_EOL;
 $nama_depan="M. Wira";
 $nama_belakang="Ade Kusuma";
 echo $nama_depan." ".$nama_belakang;
 
 // operator assigment
 // = += -= *= /= %= .= 
+echo "operator assigment".PHP_EOL;
 $a=1;
 $a +=5;
 echo $a;
 
 // perbandingan
 // > < <= >= == !=
+echo "operator perbandingan".PHP_EOL;
 var_dump(1 < 2);
 
 
 // identitas
 // === !==
+echo "operator identitas".PHP_EOL;
+var_dump(1 === "1");
 
 // logika
 // && || !
+echo "operator logika".PHP_EOL;
 var_dump($xl < 20 || $x % 2 ==0);
 ?>
 <!DOCTYPE html>
