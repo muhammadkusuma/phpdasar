@@ -1,20 +1,17 @@
+<html>
+<body>
 <?php
-// ini adalah komentar
-/* multiline 
-komentar*/
-
-// sintaks php
-// echo, print
-// print_r
-// var_dump
-
 echo "Wira";
-echo 123;
+echo "<br>";
+echo 222;
+echo "<br>";
 echo true;
-echo false;
-echo "Jum'at";
-print_r ("Wira");
-var_dump ("Wira");
+//echo false;
+echo "<br>";
+print_r("wira");
+echo "<br>";
+var_dump("wira");
+echo "<br>";
 
 // penulisan sintaks php
 // 1. PHP didalam HTML
@@ -22,60 +19,63 @@ var_dump ("Wira");
 
 // variable dan tipe data
 // variable
-echo "variable dan tipe data".PHP_EOL;
-$nama="Wira";
+echo "<br>";
+echo "variable dan tipe data";
+echo "<br>";
+echo $nama="Wira";
+echo "<br>";
 
 // operator
 // aritmatika
 // + - * / %
-echo "operator aritmatika".PHP_EOL;
+echo "<br>";
+echo "operator aritmatika</br>";
 $x=10;
 $y=20;
 echo $x+$y;
+echo "<br>";
 
 // penggabung string/concat
 // .
-echo "penggabungan string".PHP_EOL;
+echo "<br>";
+echo "penggabungan string</br>";
 $nama_depan="M. Wira";
 $nama_belakang="Ade Kusuma";
 echo $nama_depan." ".$nama_belakang;
+echo "<br>";
 
 // operator assigment
-// = += -= *= /= %= .= 
-echo "operator assigment".PHP_EOL;
+// = += -= *= /= %= .=
+echo "<br>";
+echo "operator assigment</br>";
 $a=1;
 $a +=5;
 echo $a;
+echo "<br>";
 
 // perbandingan
 // > < <= >= == !=
-echo "operator perbandingan".PHP_EOL;
+echo "<br>";
+echo "operator perbandingan</br>";
 var_dump(1 < 2);
+echo "<br>";
 
 
 // identitas
 // === !==
-echo "operator identitas".PHP_EOL;
+echo "<br>";
+echo "operator identitas</br>";
 var_dump(1 === "1");
+echo "<br>";
 
 // logika
 // && || !
-echo "operator logika".PHP_EOL;
-var_dump($xl < 20 || $x % 2 ==0);
+echo "<br>";
+echo "operator logika</br>";
+$xl=1;
+$xy=10;
+var_dump($xl < 20 || $xy % 2 ==0);
+echo "<br>";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Halo, Selamat Datang <?php echo "Wira";?></h1>
-    <h1>Halo, Selamat Datang <?php echo $nama;?></h1>
-    <?php
-        echo "<h2>Hai $nama</h2>"
-    ?>
 </body>
 </html>

@@ -1,24 +1,31 @@
 <?php
-    // pengulangan for, while, do while, foreach
-    echo "for".PHP_EOL;
-    for ($i=0; $i <5 ; $i++) { 
-        echo "Hello World!".PHP_EOL;
-    }
-    echo "while".PHP_EOL;
-    $a=0;
-    while ($a <= 10) {
-        echo "Hello World!".PHP_EOL;
-        $a++;
-    }
+//     pengulangan for, while, do while, foreach
+echo "for".PHP_EOL;
+echo "<br>";
+for ($i=0; $i <5 ; $i++) {
+    echo "Hello World!".PHP_EOL;
+    echo "<br>";
+}
+echo "while".PHP_EOL;
+echo "<br>";
+$a=0;
+while ($a <= 10) {
+    echo "Hello World!".PHP_EOL;
+    echo "<br>";
+    $a++;
+}
 
-    echo "do while".PHP_EOL;
-    $b=0;
-    do {
-        echo "Hello World!".PHP_EOL;
-        $b++;
-    } while ($b <= 10);
-    // pengkondisian if..else, if..else if..else, ternary, switch
+echo "do while".PHP_EOL;
+echo "<br>";
+$b=0;
+do {
+    echo "Hello World!".PHP_EOL;
+    echo "<br>";
+    $b++;
+} while ($b <= 10);
+// pengkondisian if..else, if..else if..else, ternary, switch
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +41,7 @@
 </head>
 <body>
     <table border="1" cellpadding="10" cellspacing="0">
-//        <?php
+        <?php
             // for ($i=1; $i <= 3; $i++) { 
                 // echo "<tr>";
                 // for ($j=0; $j <=5 ; $j++) { 
@@ -46,7 +53,7 @@
         <?php for ($i=1; $i<=5 ; $i++) : ?>
             <?php if ($i % 2 == 1) : ?>
             <tr class="warna-baris">
-                <?php else ?>
+                <?php else :?>
                 <tr></tr>
             <?php endif;?>
                 <?php for ($j=1; $j<= 5 ; $j++) : ?> 
